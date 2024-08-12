@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NeighbourhoodHelp.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5db0f04c8cd7d78e3446a1b7a79a7f075d997e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a477686fbbcffb293b779de3d9dfacbb7041ef2")]
 [assembly: System.Reflection.AssemblyProductAttribute("NeighbourhoodHelp.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NeighbourhoodHelp.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

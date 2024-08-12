@@ -1,0 +1,30 @@
+{
+  "ConnectionStrings": {
+    "LocalConnection": "Host=localhost;Database=NeighbourhoodDB;Username=postgres;Password=j2tw; Persist Security Info=True",
+    "DefaultConnection": "User ID=nh_help_user;Password=yRA1sMmAEgwMgIlyifvSaNkZi6T0DD3m;Host=dpg-cp6cr7821fec738g54qg-a.oregon-postgres.render.com;Port=5432;Database=nh_help;Pooling=true;SSL Mode=Require;Trust Server Certificate=True;"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "CloudinarySettings": {
+    "CloudName": "dtbi13nin",
+    "ApiKey": "261692422179163",
+    "ApiSecret": "v_Up8_bImS2MWQGSlPTTxtceikQ"
+  },
+  "EmailSettings": {
+    "Host": "smtp.gmail.com",
+    "Port": 587,
+    "Username": "sq20liveproject@gmail.com",
+    "Password": "xtkt ngta poba ajin"
+  },
+  "AllowedHosts": "*",
+  "JWT": {
+    "Issuer": "http://localhost:47128",
+    "Audience": "http://localhost:47128",
+    "SigningKey": "sdgfijjh3466iu345g87g08c24g7204gr803g30587ghh35807fg39074fvg80493745gf082b507807g807fgf",
+    "TokenValidityInMinutes": 60
+  }
+}
