@@ -89,7 +89,7 @@ namespace NeighbourhoodHelp.Api
                 options.AddPolicy("AllowSpecificOrigin",
                     builder =>
                     {
-                        builder.WithOrigins("https://nhbe.onrender.com")
+                        builder.WithOrigins("https://neighbourhoodhelp.vercel.app/")
                             .AllowAnyHeader()
                             .AllowAnyMethod();
                     });
