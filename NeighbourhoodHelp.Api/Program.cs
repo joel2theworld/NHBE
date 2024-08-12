@@ -81,7 +81,7 @@ namespace NeighbourhoodHelp.Api
 
             builder.Services.AddDbContextPool<ApplicationDbContext>(options =>
             {
-                options.UseNpgsql(builder.Configuration.GetConnectionString("LocalConnection"));
+                options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
 
             builder.Services.AddCors(options =>

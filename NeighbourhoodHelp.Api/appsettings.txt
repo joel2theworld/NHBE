@@ -1,7 +1,7 @@
 {
   "ConnectionStrings": {
     "LocalConnection": "Host=localhost;Database=NeighbourhoodDB;Username=postgres;Password=j2tw; Persist Security Info=True",
-    "DefaultConnection": "User ID=nh_help_user;Password=yRA1sMmAEgwMgIlyifvSaNkZi6T0DD3m;Host=dpg-cp6cr7821fec738g54qg-a.oregon-postgres.render.com;Port=5432;Database=nh_help;Pooling=true;SSL Mode=Require;Trust Server Certificate=True;"
+    "DefaultConnection": "Host=dpg-cqt2v288fa8c73b1p16g-a;Database=nhdb;Username=nhdb_user;Password=zKGmpDRXSBHkwvUNjxyyqPyZulNvNNpc; Persist Security Info=True"
   },
   "Logging": {
     "LogLevel": {

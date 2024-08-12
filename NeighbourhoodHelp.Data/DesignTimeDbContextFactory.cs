@@ -15,7 +15,7 @@ namespace NeighbourhoodHelp.Data
                 .Build();
 
             var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
-            optionsBuilder.UseNpgsql(configuration.GetConnectionString("LocalConnection"));
+            optionsBuilder.UseNpgsql(configuration.GetConnectionString("DefaultConnection"));
 
             return new ApplicationDbContext(optionsBuilder.Options);
         }
