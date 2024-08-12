@@ -122,7 +122,7 @@ namespace NeighbourhoodHelp.Api
             var userManager = serviceProvider.GetRequiredService<UserManager<AppUser>>();
             var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
 
-            UserandRolesInitializedData.SeedData(context, userManager, roleManager).Wait();
+            // UserandRolesInitializedData.SeedData(context, userManager, roleManager).Wait();
 
             app.MapControllers();
 
