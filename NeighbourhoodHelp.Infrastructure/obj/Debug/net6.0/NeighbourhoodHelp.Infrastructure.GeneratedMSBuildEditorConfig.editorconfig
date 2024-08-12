@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NeighbourhoodHelp.Infrastructure
-build_property.ProjectDir = C:\Users\Joel\Desktop\NeighbourhoodHelp\Backend\NeighbourhoodHelp_SQ20.Net_BE-develop\NeighbourhoodHelp.Infrastructure\
+build_property.ProjectDir = /Users/decagon/Desktop/NHBE/NHBE/NeighbourhoodHelp.Infrastructure/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

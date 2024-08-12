@@ -29,8 +29,8 @@ namespace NeighbourhoodHelp.Api
             builder.Services.AddScoped<ITokenService, TokenService>();
 
             builder.Services.AddScoped<IAgentRepository, AgentRepository>();
-           builder.Services.AddScoped<IAgentServices, AgentServices>();
-           builder.Services.AddScoped<ICloudService, CloudService>();
+            builder.Services.AddScoped<IAgentServices, AgentServices>();
+            builder.Services.AddScoped<ICloudService, CloudService>();
             builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("CloudinarySettings"));
             builder.Services.AddAutoMapper(typeof(MappingProfile));
 
@@ -39,12 +39,8 @@ namespace NeighbourhoodHelp.Api
             builder.Services.AddControllers().AddJsonOptions(options =>
 
             {
-
                 options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
-
             });
-
-
 
             //Addidng of services
             builder.Services.AddScoped<IErrandRepository, ErrandRepository>();
@@ -53,7 +49,6 @@ namespace NeighbourhoodHelp.Api
             builder.Services.AddScoped<IErrandServices, ErrandServices>();
             builder.Services.AddScoped<IPriceServices, PriceServices>();
             builder.Services.AddScoped<IPriceRepository, PriceRepository>();
-
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
@@ -86,7 +81,7 @@ namespace NeighbourhoodHelp.Api
 
             builder.Services.AddDbContextPool<ApplicationDbContext>(options =>
             {
-                options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
+                options.UseNpgsql(builder.Configuration.GetConnectionString("LocalConnection"));
             });
 
             builder.Services.AddCors(options =>

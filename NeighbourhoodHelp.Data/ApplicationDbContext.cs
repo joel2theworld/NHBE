@@ -13,7 +13,6 @@ namespace NeighbourhoodHelp.Data
     {
         public ApplicationDbContext(DbContextOptions dbContextOptions) : base(dbContextOptions)
         {
-
         }
         
         public virtual DbSet<Errand> Errands { get; set; }
