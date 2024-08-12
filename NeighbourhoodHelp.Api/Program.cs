@@ -89,7 +89,7 @@ namespace NeighbourhoodHelp.Api
                 options.AddPolicy("AllowSpecificOrigin",
                     builder =>
                     {
-                        builder.WithOrigins("http://localhost:3000")
+                        builder.WithOrigins("https://nhbe.onrender.com")
                             .AllowAnyHeader()
                             .AllowAnyMethod();
                     });
