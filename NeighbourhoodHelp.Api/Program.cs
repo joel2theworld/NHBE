@@ -87,11 +87,12 @@ namespace NeighbourhoodHelp.Api
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowSpecificOrigin",
-                    builder =>
+                    policyBuilder =>
                     {
-                        builder.WithOrigins("https://neighbourhoodhelp.vercel.app/")
-                            .AllowAnyHeader()
-                            .AllowAnyMethod();
+                        policyBuilder.WithOrigins("http://localhost:3000", "https://neighbourhoodhelp.vercel.app") // Local and production domains
+                        .AllowAnyHeader()
+                        .AllowAnyMethod()
+                        .AllowCredentials(); // If you need to send credentials like cookies
                     });
             });
 
